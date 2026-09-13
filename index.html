@@ -55,6 +55,10 @@
   .fade.on{opacity:1;transform:none}
 
   /* hero */
+  /* gradient text */
+  .grad{background:linear-gradient(180deg,#ffffff 0%,#fff3ea 45%,#f3bfa6 100%);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;padding-top:.12em;margin-top:-.12em}
+  .h-title .l1{background:linear-gradient(180deg,#ffffff 0%,#fff3ea 40%,#f0b799 100%);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;padding:.14em 0 .05em;margin-top:-.14em}
+  .h-title sup{-webkit-text-fill-color:#fff;color:#fff}
   .h-title{left:40px;right:40px;top:11vh;font-weight:500;font-size:clamp(60px,11.7vw,220px);line-height:.9;letter-spacing:-.035em;white-space:nowrap;text-align:center}
   .h-title .l1{display:inline-flex;align-items:flex-start;gap:.06em}
   .h-title sup{font-size:.3em;font-weight:400;line-height:1;margin-top:.08em;letter-spacing:0}
@@ -173,7 +177,7 @@
     <!-- bun -->
     <div class="layer fade bun" data-from="0.14" data-to="0.30">
       <div class="tag micro">Про булку</div>
-      <h2>Чёрная<br>бриошь<br>на угле</h2>
+      <h2 class="grad">Чёрная<br>бриошь<br>на угле</h2>
       <p>Пекём каждое утро сами. Уголь даёт цвет и лёгкую хрусткость корочки, сливочное масло держит мякиш мягким до последнего кусочка. Без красителей.</p>
       <ul>
         <li><b>4 ч</b><span>расстойки</span></li>
